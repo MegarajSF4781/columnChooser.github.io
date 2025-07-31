@@ -209,7 +209,7 @@ var sampleData =  [
 ];
 function renderCustomColumnChooser (targetLHTMLElement, columns)  {
     var parentNodes = [
-        { id: 1, name: 'Task DetailsÙ', hasChild: true, expanded: true },
+        { id: 1, name: 'Task Details', hasChild: true, expanded: true },
         { id: 2, name: 'Period', hasChild: true, expanded: true },
         
     ];
