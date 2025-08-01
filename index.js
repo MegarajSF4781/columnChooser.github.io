@@ -286,16 +286,16 @@ var treegrid = new ej.treegrid.TreeGrid({
                     columns: [
                         {
                             field: 'taskID',
-                            headerText: 'taskID',
+                            headerText: 'Task ID',
                             textAlign: 'Right',
                             width: 90,
                             showInColumnChooser:false
                         },
                         {
                             field: 'taskName',
-                            headerText: 'taskName',
+                            headerText: 'Task Name',
                             width: 110,
-                            textAlign: 'Right',
+                            textAlign: 'Left',
                         },
                     ],
                 },
@@ -305,16 +305,16 @@ var treegrid = new ej.treegrid.TreeGrid({
                     columns: [
                         {
                             field: 'startDate',
-                            headerText: 'startDate',
-                            textAlign: 'Right',
+                            headerText: 'Start Date',
+                            textAlign: 'Center',
                             width: 90,
                             type: 'date', format: 'yMd'
                         },
                         {
                             field: 'endDate',
-                            headerText: 'endDate',
+                            headerText: 'End Date',
                             width: 110,
-                            textAlign: 'Right',
+                            textAlign: 'Center',
                             type: 'date', format: 'yMd'
                         },
                         { field: 'duration', headerText: 'Duration', width: 80, textAlign: 'Right' },
@@ -322,7 +322,7 @@ var treegrid = new ej.treegrid.TreeGrid({
                 },
                 
                 { field: 'progress', headerText: 'Progress', width: 80, textAlign: 'Right' },
-                { field: 'priority', headerText: 'Priority', width: 90 },
+                { field: 'priority', headerText: 'Priority', width: 90, textAlign: 'Left'  },
             ],
             created: onCreated
     });
